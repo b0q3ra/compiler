@@ -1,0 +1,9 @@
+services:
+  app:
+    # command: sleep infinity
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+
